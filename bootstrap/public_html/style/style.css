@@ -1,0 +1,234 @@
+
+body,html{
+    width:100%;
+    height:100%;
+    padding:0px;
+    /* margin:0px; */
+    font-size: 140%;
+    font-family: Jost;
+}
+
+#introduction,#new,#aboutus{
+    min-height: 700px;
+}
+
+#abouttheproduct,#product{
+    min-height: 700px;
+}
+
+.nav-link{
+    font-size:16px !important;
+    background-color:white;
+    text-decoration: none;
+    color:black;
+    padding:10px; 
+    text-align: center;
+    border-radius:100px;/*сделаем кнопку более округлой     background-image: url("../img/fon.png");*/
+}
+
+.nav-link2{
+    background-color:#F3F3F3;
+    text-decoration: none;
+    color:black;
+    padding:10px; 
+    margin:10px;
+    text-align: center;
+    border-radius:100px;/*сделаем кнопку более округлой     background-image: url("../img/fon.png");*/
+}
+
+nav{
+    align-items: center;
+}
+
+#introduction{
+    background-color:#9a1212;
+}
+
+#new{
+    padding:25px 15px 25px 15px;
+}
+
+#imag1 {
+    width:100%;
+}
+
+ul{
+    padding-top:20px;
+    justify-content: flex-end;
+}
+
+.name{
+    text-align:center;
+    font-size:16pt;
+    color:#9a1212;
+}
+.btn{
+    padding:0px 10px 0 10px!important;
+}
+
+.carousel-item img{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#aboutus{
+    background-color:white;
+}
+
+
+#lea{
+    display:flex;
+
+}
+
+
+#leaf1 {
+    position: absolute;
+    bottom: 0;
+    right: 18.5%;
+    z-index:0;
+}
+
+.leaf2 {
+    position:absolute;
+    z-index:0;
+    top:0;
+    right:0;
+    height: 772px;
+}
+
+
+.footer{
+    background-color:#F3F3F3;
+    padding:10px;
+    display:grid;
+    margin-top:auto;
+    font-size:18pt;
+}
+
+.footer2{
+    display:flex;
+    justify-content:space-between;
+    background-color:#F3F3F3;
+    padding:20px;
+    align-items: center;
+    
+    
+    
+}
+
+.footer2 div{
+    text-align:right;
+    color:#9a1212;
+}
+
+#new,#abouttheproduct{
+    background-color:white;
+}
+
+
+
+
+
+
+#abouttheproduct{
+    justify-content: center;
+}
+
+.otovare img{
+    position: relative;
+}
+
+.otovare{
+    width: 75%;
+    text-align: center;
+}
+
+.sostav{
+    padding:20px;
+    color:white;
+    text-align: right;
+}
+.leaf3{
+    position:absolute;
+    right:0;
+    top:100%;
+    z-index:1;
+}
+.otovare{
+    padding:10px 40px 10px 40px;
+    align-items:center;
+    justify-content:center;
+}
+#infa{
+    background-color:#9a1212;
+    color:white;
+    padding:10px;
+    border-radius:100px;
+    align-items:center;
+}
+
+#leaf4{
+    position:absolute;
+    top:250px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width:10%!important;
+}
+
+
+
+@media screen and(max-width:575px){
+    .sostav{
+        text-align: center;
+    }
+    .otovare img{
+        width:70%;
+    }
+    
+    .we1 img{
+        width:70%;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+    ul{
+        justify-content: center;
+    }
+    #infa{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 450px)
+{
+    #one{
+        font-size:18px;
+    }
+}
+
+
+@media screen and(max-width:580px){
+    #introduction h2{
+        font-size:40px;   
+    }
+    #new h1{
+        font-size:40px;
+    }
+}
+
+@media screen and (max-width: 835px){
+    .leaf2 {
+        display: none;
+    }
+    .navbar{
+        font-size:16px;
+    }
+    #introduction{
+        display:flex;
+        flex-direction: column;
+    }
+}

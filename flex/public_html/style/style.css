@@ -1,0 +1,312 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body,html{
+    width:100%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+    font-size: 130%;
+}
+
+.leaf3{
+    position:absolute;
+    right:0;
+    top:60%;
+    z-index:1;
+}
+
+.footer{
+    background-color:#F3F3F3;
+    padding:10px;
+    display:grid;
+    margin-top:auto;
+    font-size:18pt;
+}
+
+.footer2{
+    display:flex;
+    justify-content:space-between;
+    background-color:#F3F3F3;
+    padding:20px;
+    align-items: center;
+    
+    
+    
+}
+
+.footer2 div{
+    text-align:right;
+    color:#9a1212;
+}
+
+
+
+.nav-link{
+    font-size:16px !important;
+    background-color:white;
+    text-decoration: none;
+    color:black;
+    padding:10px; 
+    text-align: center;
+    border-radius:100px;/*сделаем кнопку более округлой     background-image: url("../img/fon.png");*/
+}
+
+.nav-link2{
+    background-color:#F3F3F3;
+    text-decoration: none;
+    color:black;
+    padding:10px; 
+    margin:10px;
+    text-align: center;
+    border-radius:100px;/*сделаем кнопку более округлой     background-image: url("../img/fon.png");*/
+}
+
+.name{
+    text-align:center;
+    font-size:16pt;
+    color:#9a1212;
+}
+
+#introduction{
+    background-color:#9a1212;
+}
+#new,#abouttheproduct{
+    background-color:white;
+}
+
+#introduction{
+    min-height: 100vh;
+    padding:0 20px;
+}
+#new{
+    min-height: 700px;
+}
+
+.header img{
+    padding-left:20px;
+}
+.header{
+    display:flex;
+    justify-content: flex-end;
+    padding:30px 0px 0px 0px;
+}
+
+.header-nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.main-text div.btn{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+
+#abouttheproduct{
+    margin:20px 15px 50px 15px;
+}
+.main{
+    display:flex;
+    flex-direction:row;
+    padding:5px 20px 20px 15px;
+    align-items: flex-end;
+}
+.mainimg img{
+    width:100%;
+    
+}
+.main-text{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    text-align:right;color:white;
+}
+
+.btn{
+    
+}
+
+.mainimg,.main{
+    flex:1;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    z-index:2;
+}
+
+#infa{
+    display:flex;
+    flex-direction:row;
+    background-color:#9a1212;
+    border-radius: 100px;
+    align-items:center;
+}
+
+ul{
+    list-style-type: none;
+}
+#abouttheproduct{
+    display:flex;
+    justify-content: center;
+}
+.aboutproduct2{
+    display:flex;
+    max-width: 700px;
+    flex-direction:column;
+    text-align: center;
+    padding:20px;
+    justify-content: center;
+}
+.aboutproduct2 img{
+    position: relative;
+    left:40px;
+}
+
+.composition{
+    display:flex;
+    padding:20px;
+    align-items: center;
+    color:white;
+    text-align: right;
+}
+
+
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+#mySlider{
+   display:flex;
+   text-align: center;
+   padding:15px 10px 15px 10px;
+}
+
+.new1{
+   display:flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   width:85%;
+}
+#new{
+    padding:25px 15px 25px 15px;
+}
+
+
+#leaf1 {
+    position: absolute;
+    bottom: 0;
+    right: 18.5%;
+    z-index:0;
+}
+
+.leaf2 {
+    position:absolute;
+    z-index:0;
+    top:0;
+    right:0;
+    height: 772px;
+}
+
+
+
+.we{
+    text-align:right;
+}
+#we1{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+#mySlider2{
+   display:flex;
+   text-align: center;
+   padding:5px!important;
+}
+.allproduct{
+   padding: 40px 0 100px 0;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width:10%!important;
+}
+.col-2{padding:5px!important;}
+
+.leaf4{
+    position:absolute;
+    top:250px;
+}
+
+@media(max-width:800px){
+    .mainimg{
+        display:none; 
+        
+    }
+}
+
+@media(max-width:650px){
+    .main,#infa{
+        flex-direction: column;
+    }
+    .header-nav,.header{
+        flex-direction:column;
+    }
+    nav li {
+        display:flex;
+        justify-content: space-around;
+    }
+    .header{
+        justify-content:center;
+    }
+    #infa img{
+        text-align:center;
+        width:170px;
+    }
+
+    .composition{
+        text-align:center;
+        padding:35px;
+    }
+    #we1{
+        display:block;
+    }
+
+}
+
+@media (max-width: 900px){
+    .leaf2 {
+        display: none;}
+    #new{
+        min-height: 400px;
+    }
+    .nav-link{
+        font-size:16px;
+    }
+    .new1{
+        width:100%;
+    }
+    
+}
+
+@media(max-width:600px){
+    body{
+        font-size:85%;
+    }
+    
+    #introduction h2{
+        font-size:40px;   
+    }
+    #new h1{
+        font-size:40px;
+    }
+}
