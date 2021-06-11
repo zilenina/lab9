@@ -10,38 +10,39 @@
 li.button{
     padding:5px;
 }
-.big{
-    font-size:170%; 
-    color:white!important;
-    background-color:#9a1212!important;
-}
+
 body,html{
     width:100%;
     height:100%;
     font-family: 'Jost';
+
     font-weight: 400;
+    font-size: 110%;
+
 }
 
 ul{
     list-style-type: none;    
 }
+#introduction{
+    min-height: 700px;
+}
 
 #new{
-     min-height: 700px;
-     position:relative; z-index:0;
+     height: 700px;
 }
+
 
 nav{
     display:grid!important;    
 }
 
-#product{
-    position:relative;
-}
 
-#abouttheproduct,#aboutus,#product,#introduction{
+#abouttheproduct,#aboutus,#product{
     min-height: 700px;
 }
+
+
 
 #introduction{
     background-color:#9a1212;
@@ -49,20 +50,17 @@ nav{
 #new,#abouttheproduct,#page2{
     background-color:white;
 }
-
-
 .nav-link{
-    font-size:18pt;
+    font-size:16px !important;
     background-color:white;
     text-decoration: none;
     color:black;
     padding:10px; 
     text-align: center;
-    border-radius:100px;/*сделаем кнопку более округлой     background-image: url("../img/fon.png");*/
+    border-radius:100px;
 }
 
 .nav-link2{
-    font-size:18pt;
     background-color:#F3F3F3;
     text-decoration: none;
     color:black;
@@ -72,20 +70,17 @@ nav{
     border-radius:100px;
 }
 
-.nav1 img{
+.naav img{
     padding:0 10px;
 }
 
-.more a{
-    margin:20px 0;
-    font-size:20pt;
-}
 
 nav{
     display:grid;
     grid-template-columns:1fr 10fr;
     justify-items:end;
     padding:0 15px;
+
 }
 
 .burger{
@@ -93,11 +88,11 @@ nav{
     grid-auto-flow:column;
     align-items: center;
 }
-
 a{
     display:grid;
     justify-items:start;
 }
+
 
 
 .header-nav{
@@ -106,6 +101,7 @@ a{
     grid-auto-flow:column;
 
 }
+
 
 .footer{
     background-color:#F3F3F3;
@@ -128,11 +124,7 @@ a{
     color:#9a1212;
 }
 
-/*второй*/
-.p1{font-size:64px}
-.p2,.p3{font-size:96px}
-.about-main{font-size:18pt}
-
+/*пвторой экран*/
 #new{
     background-color:white;
 }
@@ -144,19 +136,18 @@ a{
     align-items: center;
     position:relative;
     text-align:center;
-
-    position:relative;
+    font-size:140%;
 
 }
-.abouttheproduct2{
+.aboutproduct2{
     display:grid;
-    max-width: 800px;
+    max-width: 750px;
     justify-items:center;
     padding-righ:150px;
 }
 
 
-.composition{
+.sostav{
     display:grid;
     padding:25px 0 25px 25px;
     align-items: center;
@@ -170,18 +161,15 @@ a{
     border-radius: 80px;
     grid-template-columns:2.5fr 1fr;
     justify-items:center;
-    font-size:28pt;
+
 }
 
 #infa img{
     position:relative;
     left:10%;
 }
-.name2{
-    padding-bottom:20px; 
-    font-size:36pt;
-}
-/*первый*/
+
+/*первый экран*/
 
 .mainimg{
     display:grid;
@@ -201,7 +189,7 @@ a{
     z-index: 3;
 }
 
-#leaf3{
+.leaf3{
     position:absolute;
     right:0;
     top:60%;
@@ -214,19 +202,18 @@ a{
     grid-column:2/3;
     grid-row:1/4;
     z-index:1;
-    right: 50%;
+    right: 60%;
     bottom:0;
     min-height: 160px;
 }
 
-#leaf2 {
+.leaf2 {
     position:absolute;
     z-index:-1;
     top:0;
     right:0;
-    height: 100%;
+    height: 772px;
 }
-
 
 #mySlider{
     width:100%;
@@ -234,16 +221,30 @@ a{
 }
 
 .mySlider1{
-    width:80%;
+    width:85%;
     display:grid;
     justify-items:center;
     padding:20px 0 20px 0;
 }
-.mySlider1 a{
-    display:flex;
-    justify-content:center!important;
-
+#mySlider2 div.carousel-item{
+    padding-left:50px;
 }
+
+#mySlider2{
+    width:100%;
+    display:grid;
+    justify-items:center;
+    padding:20px 0 20px 0;
+    align-items:center;
+}
+
+.allproduct{
+    display:grid;
+    min-height:60vh;
+    align-items:center!important;
+    padding:15vh 0;
+}
+
 
 #introduction nav{
     display:grid;
@@ -263,30 +264,6 @@ a{
     width: 100%;
 }
 
-#mySlider2 div.carousel-item{
-    padding-left:50px;
-}
-#mySlider2{
-    width:100%;
-    display:grid;
-    justify-items:center;
-    padding:20px 0 20px 0;
-    align-items:center;
-}
-
-.allproduct{
-    display:grid;
-    min-height:60vh;
-    align-items:center!important;
-    padding:15vh 0;
-}
-#leaf4{
-    position:absolute;
-    z-index:1;
-    left:0;
-    bottom:0;
-}
-
 #mySlider2 a.carousel-control-next{
     width:23%!important;
 } 
@@ -294,11 +271,10 @@ a.carousel-control-next img{
     max-width:100%;
 }
 
-/*о компании*/
+
 .we{
     text-align:right;
-    font-size:32pt;
-    padding:40px 20px;
+    font-size:150%;
 }
 #we1{
     display:grid;
@@ -311,11 +287,28 @@ a.carousel-control-next img{
     padding:0 5px;
 }
 
+.leaf4{
+    position:absolute;
+    z-index:1;
+    top:70vh;
+}
+
+
 .name{
     text-align:center;
     font-size:20pt;
     color:#9a1212;
 }
+
+.mySlider1 a{
+    display:flex;
+    justify-content:center!important;
+
+}
+
+
+
+
 
 @media(max-width:800px){
 
@@ -329,45 +322,52 @@ a.carousel-control-next img{
         grid-column:1/3;
     }
 
-    .nav1{
+    .naav{
         grid-column:1/3!important;
         grid-row:1;
         align-items:center;
         justify-items:center;
         
     }
-    .p1{font-size:25pt;}
-    .p2{font-size:32pt;}
-    
+    .p1,.p2{
+        font-size:18pt;
+    }
     .name{
         font-size:14pt;
     }
 
-    #leaf2 {
+
+    .leaf2 {
         display:none;
     }
-    .we{
-       font-size: 26pt;
+    #new{
+       height: 450px;
     }
     .mySlider1{
         width:100%
     }
     #new h1{padding:0;text-align: center;}
 
+    .main-text {
+
+        
+    }
+
 }
 
 
-@media(max-width:670px){
 
-    #new h1{
-        font-size:35px;
+@media(max-width:670px){
+    #introduction h1{
+        font-size:40px;   
     }
-    .name2{font-size:25pt;}
+    #new h1{
+        font-size:40px;
+    }
     #infa{
         grid-template-columns:1fr;
-        font-size:18pt;
     }
-    .composition{        
+    .sostav{        
         text-align: center;}
 
     #infa img{
@@ -396,11 +396,16 @@ a.carousel-control-next img{
     }
 
     #leaf1{display:none}
-    #leaf3{top:73%;width:70%;}
-    #leaf3 img{width:100%;}
 
-    #leaf4 img{width:60%;height: auto}
-
+    .leaf3{
+        width:50%;height: auto;
+        top:70%;}
+    #abouttheproduct{
+        font-size:110%;
+    }
+    body{
+        font-size:95%;
+    }
 }
 
 @media(max-width:1117px){
@@ -416,31 +421,4 @@ a.carousel-control-next img{
     #leaf1{
         display:none;
     }  
-    .we{font-size:18pt}
-}
-
-@media(min-width:1300px){
-   body,.footer,.footer2,.about-main,.name{
-        font-size:160%!important;
-    }
-    .nav-link,.nav-link2{ font-size:110%;}
-    
-    .logo img,#we1 img{width:120%}
-    
-    #infa{font-size:180%}
-    #infa img{width:125%;left:20%}
-    .main-text{grid-gap: 2em;}
-    .more a{font-size:160%}
-    .we{padding-left:50px;}
-}
-
-@media(min-width:1700px){
-    #leaf2 img{height:100%;} 
-    .dkp{width:150%;}
-    
-    .logo img{width:140%}
-    .more a{font-size:190%}
-    .nav-link,.nav-link2{font-size:160%;}
-    
-    .p,.p1{font-size:400%}  
 }
